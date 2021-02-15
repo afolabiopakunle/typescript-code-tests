@@ -1,1 +1,4 @@
-console.log("Hello world!");
+import {GithubApiService} from "./GithubApiService";
+
+let svc = new GithubApiService();
+svc.getUserInfo('afolabiopakunle')
